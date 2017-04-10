@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Codelearn  Application</string>
+    <string name="first_activity">First Activity</string>
+    <string name="second_activity">Second Activity</string>
+    <string name="mensaje2">Bienvenido </string>
+    <string name="opcion">Presione el numero para llamar</string>
+    <string name="user">Username</string>
+    <string name="pass">Password</string>
+    <string name="login">Login</string>
+</resources>
