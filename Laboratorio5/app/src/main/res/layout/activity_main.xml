@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.visoc.laboratorio5.MainActivity">
+
+    <Button
+        android:id="@+id/barra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="119dp"
+        android:onClick="onClick"
+        android:text="@string/barra" />
+
+    <Button
+        android:id="@+id/descarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/barra"
+        android:layout_alignStart="@+id/barra"
+        android:layout_below="@+id/barra"
+        android:layout_marginTop="90dp"
+        android:text="@string/descarga" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_below="@+id/descarga"
+        android:layout_toRightOf="@+id/descarga"
+        android:layout_toEndOf="@+id/descarga"
+        android:layout_marginLeft="54dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="78dp" />
+</RelativeLayout>
